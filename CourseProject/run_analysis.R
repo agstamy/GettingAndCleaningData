@@ -1,4 +1,5 @@
 # Use dplyr Data to create the final clean data set
+install.packages("dplyr")
 library(dplyr)
 
 # Load X & Y Test Data into DFs
