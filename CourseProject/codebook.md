@@ -1,89 +1,89 @@
 # CodeBook
-## Decribes the tidy data set and its variables created by the *__ run_analysis.R __* script
+## Decribes the tidy data set and its variables created by the **run_analysis.R** script
 
-*__ README.md describes in detail the steps follwed to create the Tidy Data Set __*
+**README.md describes in detail the steps follwed to create the Tidy Data Set**
 
 # Variables Names
 
 Variable| Description
 Subject| ID (1-30) of the subject who performed the measured activity
 Activity| Activities performed and measured for each subject : LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS
-tBodyAcc-mean()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAcc-mean()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAcc-mean()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAcc-std()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAcc-std()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAcc-std()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tGravityAcc-mean()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tGravityAcc-mean()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tGravityAcc-mean()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tGravityAcc-std()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tGravityAcc-std()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tGravityAcc-std()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccJerk-mean()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccJerk-mean()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccJerk-mean()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccJerk-std()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccJerk-std()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccJerk-std()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyro-mean()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyro-mean()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyro-mean()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyro-std()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyro-std()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyro-std()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroJerk-mean()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroJerk-mean()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroJerk-mean()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroJerk-std()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroJerk-std()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroJerk-std()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccMag-mean()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccMag-std()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tGravityAccMag-mean()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tGravityAccMag-std()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccJerkMag-mean()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyAccJerkMag-std()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroMag-mean()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroMag-std()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroJerkMag-mean()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-tBodyGyroJerkMag-std()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAcc-mean()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAcc-mean()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAcc-mean()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAcc-std()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAcc-std()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAcc-std()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAccJerk-mean()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAccJerk-mean()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAccJerk-mean()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAccJerk-std()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAccJerk-std()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAccJerk-std()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyGyro-mean()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyGyro-mean()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyGyro-mean()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyGyro-std()-X| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyGyro-std()-Y| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyGyro-std()-Z| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAccMag-mean()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyAccMag-std()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyBodyAccJerkMag-mean()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyBodyAccJerkMag-std()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyBodyGyroMag-mean()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyBodyGyroMag-std()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyBodyGyroJerkMag-mean()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-fBodyBodyGyroJerkMag-std()| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
+tBodyAcc-mean()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAcc-mean()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAcc-mean()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAcc-std()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAcc-std()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAcc-std()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tGravityAcc-mean()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tGravityAcc-mean()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tGravityAcc-mean()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tGravityAcc-std()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tGravityAcc-std()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tGravityAcc-std()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccJerk-mean()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccJerk-mean()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccJerk-mean()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccJerk-std()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccJerk-std()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccJerk-std()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyro-mean()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyro-mean()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyro-mean()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyro-std()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyro-std()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyro-std()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroJerk-mean()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroJerk-mean()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroJerk-mean()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroJerk-std()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroJerk-std()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroJerk-std()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccMag-mean()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccMag-std()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tGravityAccMag-mean()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tGravityAccMag-std()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccJerkMag-mean()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyAccJerkMag-std()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroMag-mean()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroMag-std()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroJerkMag-mean()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+tBodyGyroJerkMag-std()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAcc-mean()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAcc-mean()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAcc-mean()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAcc-std()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAcc-std()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAcc-std()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAccJerk-mean()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAccJerk-mean()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAccJerk-mean()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAccJerk-std()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAccJerk-std()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAccJerk-std()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyGyro-mean()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyGyro-mean()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyGyro-mean()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyGyro-std()-X| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyGyro-std()-Y| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyGyro-std()-Z| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAccMag-mean()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyAccMag-std()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyBodyAccJerkMag-mean()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyBodyAccJerkMag-std()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyBodyGyroMag-mean()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyBodyGyroMag-std()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyBodyGyroJerkMag-mean()| Descriprion in **features_info.txt** file provided by the original Data Set file list
+fBodyBodyGyroJerkMag-std()| Descriprion in **features_info.txt** file provided by the original Data Set file list
  
-# Tidy Data Set Structure *__ finalResult __*
+# Tidy Data Set Structure **finalResult**
 
 > str(finalResult)
 Classes ‘grouped_df’, ‘tbl_df’, ‘tbl’ and 'data.frame': 180 obs. of  68 variables:
  $ Subject                    : int  1 1 1 1 1 1 2 2 2 2 ...
- $ Activity                   : Factor w/ 6 levels | Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-LAYING| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-,| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-SITTING| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
+ $ Activity                   : Factor w/ 6 levels | Descriprion in **features_info.txt** file provided by the original Data Set file list
+LAYING| Descriprion in **features_info.txt** file provided by the original Data Set file list
+,| Descriprion in **features_info.txt** file provided by the original Data Set file list
+SITTING| Descriprion in **features_info.txt** file provided by the original Data Set file list
 ,..: 1 2 3 4 5 6 1 2 3 4 ...
  $ tBodyAcc-mean()-X          : num  0.222 0.261 0.279 0.277 0.289 ...
  $ tBodyAcc-mean()-Y          : num  -0.04051 -0.00131 -0.01614 -0.01738 -0.00992 ...
@@ -151,12 +151,12 @@ SITTING| Descriprion in *__ features_info.txt __* file provided by the original 
  $ fBodyBodyGyroMag-std()     : num  -0.824 -0.932 -0.978 -0.321 -0.398 ...
  $ fBodyBodyGyroJerkMag-mean(): num  -0.942 -0.99 -0.995 -0.319 -0.282 ...
  $ fBodyBodyGyroJerkMag-std() : num  -0.933 -0.987 -0.995 -0.382 -0.392 ...
- - attr(*, | Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-vars| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
+ - attr(*, | Descriprion in **features_info.txt** file provided by the original Data Set file list
+vars| Descriprion in **features_info.txt** file provided by the original Data Set file list
 )=List of 1
   ..$ : symbol Subject
- - attr(*, | Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
-drop| Descriprion in *__ features_info.txt __* file provided by the original Data Set file list
+ - attr(*, | Descriprion in **features_info.txt** file provided by the original Data Set file list
+drop| Descriprion in **features_info.txt** file provided by the original Data Set file list
 )= logi TRUE
 
-# File produced : *__ finalResult.txt __*
+# File produced : **finalResult.txt**

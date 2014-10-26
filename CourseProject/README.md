@@ -15,7 +15,9 @@ The purpose of the project is to prepare a tidy data set from data collected fro
 * The **codebook.md** with the description of the **finalResult.txt**
 * The Tidy Data Set txt file **finalResult.txt**
 
-R script **run_analysis.R** performs the follwoing to create the Tidy Data Set
+## Description of the analysis
+
+R script **run_analysis.R** performs the follwoing to create the Tidy Data Set:
 
 1. Uses **read.table** to load Test & Train X & Y Data from the respective files into seperates R Data Frames (DF) : **myTestDf_X, myTestDf_Y,myTrainDf_X,myTrainDf_Y**
 2. Merges Test & Train  X data together into a new DF: **myDf_X**
