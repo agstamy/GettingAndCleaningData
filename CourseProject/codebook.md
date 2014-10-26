@@ -8,7 +8,8 @@
 Variable | Description
 -------- | -------------
 Subject | ID (1-30) of the subject who performed the measured activity
-Activity | Activities performed and measured for each subject : LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS
+Activity | Activities performed and measured for each subject : LAYING,SITTING,STANDING,
+WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS
 tBodyAcc-mean()-X | Descriprion in **features_info.txt** file provided by the original Data Set file list
 tBodyAcc-mean()-Y | Descriprion in **features_info.txt** file provided by the original Data Set file list
 tBodyAcc-mean()-Z | Descriprion in **features_info.txt** file provided by the original Data Set file list
@@ -81,11 +82,7 @@ fBodyBodyGyroJerkMag-std() | Descriprion in **features_info.txt** file provided 
 > str(finalResult)
 Classes ‘grouped_df’, ‘tbl_df’, ‘tbl’ and 'data.frame': 180 obs. of  68 variables:
  $ Subject                    : int  1 1 1 1 1 1 2 2 2 2 ...
- $ Activity                   : Factor w/ 6 levels | Descriprion in **features_info.txt** file provided by the original Data Set file list
-LAYING| Descriprion in **features_info.txt** file provided by the original Data Set file list
-,| Descriprion in **features_info.txt** file provided by the original Data Set file list
-SITTING| Descriprion in **features_info.txt** file provided by the original Data Set file list
-,..: 1 2 3 4 5 6 1 2 3 4 ...
+ $ Activity                   : ,..: 1 2 3 4 5 6 1 2 3 4 ...
  $ tBodyAcc-mean()-X          : num  0.222 0.261 0.279 0.277 0.289 ...
  $ tBodyAcc-mean()-Y          : num  -0.04051 -0.00131 -0.01614 -0.01738 -0.00992 ...
  $ tBodyAcc-mean()-Z          : num  -0.113 -0.105 -0.111 -0.111 -0.108 ...
