@@ -78,7 +78,7 @@ fBodyBodyGyroJerkMag-std() | Descriprion in **features_info.txt** file provided 
  
 # Tidy Data Set Structure **finalResult**
 
-Variable | 
--------- | 
+str(finalResult) | 
+---------------- | 
 
 
