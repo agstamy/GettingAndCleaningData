@@ -78,8 +78,8 @@ fBodyBodyGyroJerkMag-std() | Descriprion in **features_info.txt** file provided 
  
 # Tidy Data Set Structure **finalResult**
 
-| str(finalResult) |
-| .................|
+str(finalResult) | Agis |
+.................| .....|
 
 
 
