@@ -8,8 +8,7 @@
 Variable | Description
 -------- | -------------
 Subject | ID (1-30) of the subject who performed the measured activity
-Activity | Activities performed and measured for each subject : LAYING,SITTING,STANDING,
-WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS
+Activity | LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS
 tBodyAcc-mean()-X | Descriprion in **features_info.txt** file provided by the original Data Set file list
 tBodyAcc-mean()-Y | Descriprion in **features_info.txt** file provided by the original Data Set file list
 tBodyAcc-mean()-Z | Descriprion in **features_info.txt** file provided by the original Data Set file list
