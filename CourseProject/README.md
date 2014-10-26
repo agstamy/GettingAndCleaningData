@@ -2,7 +2,7 @@
 
 ## Purpose of the Project
 
-The purpose of the project is to prepare tidy data from data collected from the accelerometers from the Samsung Galaxy S smartphone. Data downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip unziped into directory **CourseProject**
+The purpose of the project is to prepare a tidy data set from data collected from the accelerometers from the Samsung Galaxy S smartphone. Data downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unziped into directory **CourseProject**
 
 ## **CourseProject** directory contents:
 
@@ -13,9 +13,9 @@ The purpose of the project is to prepare tidy data from data collected from the 
 * The R Script created to perfomr the analysis **run_analysis.R**
 * This file **README.md**
 * The **codebook.md** with the description of the **finalResult.txt**
-* The Tidy Data Set txt file : **finalResult.txt**
+* The Tidy Data Set txt file **finalResult.txt**
 
-# Detailed description of the steps and actions in run_analysis.R to create the Tidy Data Set
+## R script run_analysis.R performs the follwoing to create the Tidy Data Set
 
 1. Uses **read.table** to load Test & Train X & Y Data from the respective files into seperates R Data Frames (DF) : **myTestDf_X, myTestDf_Y,myTrainDf_X,myTrainDf_Y**
 2. Merges Test & Train  X data together into a new DF: **myDf_X**
