@@ -78,9 +78,12 @@ fBodyBodyGyroJerkMag-std() | Descriprion in **features_info.txt** file provided 
  
 # Tidy Data Set Structure **finalResult**
 
-str(finalResult) ||
-................ ||
-Classes ‘grouped_df’, ‘tbl_df’, ‘tbl’ and 'data.frame':        180 obs. of  68 variables: ||
+<table>
+<tr>
+str(finalResult)
+Classes ‘grouped_df’, ‘tbl_df’, ‘tbl’ and 'data.frame':        180 obs. of  68 variables:
+</tr>
+</table>
 
 
 
