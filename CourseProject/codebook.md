@@ -78,9 +78,10 @@ fBodyBodyGyroJerkMag-std() | Descriprion in **features_info.txt** file provided 
  
 # Tidy Data Set Structure **finalResult**
 
-str(finalResult)
-Classes ‘grouped_df’, ‘tbl_df’, ‘tbl’ and 'data.frame':        180 obs. of  68 variables:
- $ Subject                    : int  1 1 1 1 1 1 2 2 2 2 ...
+str(finalResult) |
+................ |
+Classes ‘grouped_df’, ‘tbl_df’, ‘tbl’ and 'data.frame':        180 obs. of  68 variables: |
+ $ Subject                    : int  1 1 1 1 1 1 2 2 2 2 ... |
  $ Activity                   : Factor w/ 6 levels "LAYING","SITTING",..: 1 2 3 4 5 6 1 2 3 4 ...
  $ tBodyAcc-mean()-X          : num  0.222 0.261 0.279 0.277 0.289 ...
  $ tBodyAcc-mean()-Y          : num  -0.04051 -0.00131 -0.01614 -0.01738 -0.00992 ...
