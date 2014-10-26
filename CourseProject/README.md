@@ -3,12 +3,11 @@
 ## Purpose of the Project
 
 The purpose of the project is to prepare tidy data from data collected from the accelerometers from the Samsung Galaxy S smartphone.
-To perform this operation an R script called **run_analysis.R** created. 
-* The script uses as workdir the folder **CourseProject** which containts:
+To perform this operation an R script called **run_analysis.R** created and as workdir the folder **CourseProject** which contains:
 * The unziped data contents of the folder UCI HAR Dataset downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-        * The folders **test** & **train** with the data of the analysis
-	* **README.txt** describing the downloaded Data Set
-        * The **features.txt** and the **features_info.txt** decribing the variables and the measures of each subject activity
+* The folders **test** & **train** with the data of the analysis
+* **README.txt** describing the downloaded Data Set
+* The **features.txt** and the **features_info.txt** decribing the variables and the measures of each subject activity
 * The R Script **run_analysis.R**
 * This file **README.md**
 * The **codebook.md** with the description of the **finalResult.txt**
